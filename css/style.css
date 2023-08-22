@@ -250,11 +250,16 @@ body {
 
 .section-text {
     font-family: DIN-medium;
-    display: flex;
-    align-items: center;
 }
 
+.section-text a {
+    color: #918b22;
+    text-shadow: 0.08em 0.08em 0.05em #000;
+}
 
+.section-text a:hover {
+    color: #fff;
+}
 
 /* Buttons */
 
@@ -347,6 +352,23 @@ body {
 
 #poster {
     display: none;
+}
+
+#twitteric {
+    height: 3em;
+    width: auto;
+    fill: #fff;
+
+    filter: drop-shadow(2px 2px 2px rgb(119, 54, 1));
+}
+
+#twitteric:hover {
+    transform: scale(1.06);
+}
+
+
+#twitteric:active {
+    transform: scale(.89);
 }
 
 @media (max-aspect-ratio: 1 / 1) {

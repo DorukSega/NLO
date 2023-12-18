@@ -31,40 +31,35 @@
 
 <body>
     <div id="HeaderMenu">
-        <img id="orbback" src="./assets/images/orbifold_bg.png" width="1196" height="1196"
-            alt="Overlay of the Orbifold Studios Logo on the Background">
-        <img id="logo" src="./assets/images/orbifold_bold_wide.png" width="1846" height="824"
-            alt="Orbifold Studios Logo">
+        <img id="orbback" src="./assets/images/orbifold_bg.png" width="1196" height="1196" alt="Overlay of the Orbifold Studios Logo on the Background">
+        <img id="logo" src="./assets/images/orbifold_bold_wide.png" width="1846" height="824" alt="Orbifold Studios Logo">
     </div>
+    <div id="scroller"></div>
 
     <div class="ifcont">
         <iframe id="ytb" width="1279" height="536" src="" loading="lazy" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div id="PageBody">
-        <div class="HeroBackground" id="first" width="3840" height="1560">
-            <video class="back_image" id="backvid" playsinline autoplay muted loop disablepictureinpicture nofullscreen
-                nodownload noremoteplayback poster="./assets/images/stillvideo.png" width="3840" height="1560">
+        <div class="HeroBackground" id="main-section" width="3840" height="1560">
+            <video class="back_image" id="backvid" playsinline autoplay muted loop disablepictureinpicture nofullscreen nodownload noremoteplayback
+                poster="./assets/images/stillvideo.png" width="3840" height="1560">
                 <source src="./assets/images/odessa_hero_bg2.mp4" type="video/mp4">
             </video>
-            <img class="back_image" id="poster" src="./assets/images/stillvideo.png"
-                alt="Poster Image for the Video Showcasing the Project" width="3840" height="1560">
-
-            <img class="back_image" id="gordon" src="./assets/images/gordon_layer.png"
-                srcset="./assets/images/gordon_layer.webp" alt="Gordon Freeman's Iconic HEV Suit" width="3840"
+            <img class="back_image" id="poster" src="./assets/images/stillvideo.png" alt="Poster Image for the Video Showcasing the Project" width="3840"
                 height="1560">
+
+            <img class="back_image" id="gordon" src="./assets/images/gordon_layer.png" srcset="./assets/images/gordon_layer.webp"
+                alt="Gordon Freeman's Iconic HEV Suit" width="3840" height="1560">
             <div class="hleft mleft">
-                <img class="LogoNLO" src="./assets/images/hl2-rtx-logo-wht.png" alt="Logo For the HL2 RTX" width="2886"
-                    height="317">
+                <img class="LogoNLO" src="./assets/images/hl2-rtx-logo-wht.png" alt="Logo For the HL2 RTX" width="2886" height="317">
                 <div id="VideoMedia">
-                    <img id="backmedia" src="./assets/images/bg_play.png" srcset="./assets/images/bg_play.webp"
-                        alt="Thumbnail of the Showcase Video" width="2414" height="1358">
+                    <img id="backmedia" src="./assets/images/bg_play.png" srcset="./assets/images/bg_play.webp" alt="Thumbnail of the Showcase Video"
+                        width="2414" height="1358">
                     <svg id="btnmedia" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 414">
                         <circle cx="207.42" cy="205.42" r="196.27" />
-                        <path fill="#fff" fill-rule="evenodd"
-                            d="M300.05 207.1a5 5 0 0 1 0 8.65l-147.29 85.42a5 5 0 0 1-7.5-4.33V126.01a5 5 0 0 1 7.5-4.32Z"
+                        <path fill="#fff" fill-rule="evenodd" d="M300.05 207.1a5 5 0 0 1 0 8.65l-147.29 85.42a5 5 0 0 1-7.5-4.33V126.01a5 5 0 0 1 7.5-4.32Z"
                             data-name="Triangle 1" />
                     </svg>
                 </div>
@@ -80,51 +75,95 @@
                 </div>
             </div>
         </div>
-        <div class="HeroBackground" id="second">
-            <img class="back_image" src="./assets/images/hero_1_proto3.png" srcset="./assets/images/hero_1_proto3.webp"
-                loading="lazy" alt="Gordon Freeman With a Firm Look Over an Abstract Industrial Background" width="3840"
-                height="1560">
+
+        <div class="HeroBackground" id="media-section">
+            <img class="back_image" src="./assets/images/third_section.png" srcset="./assets/images/third_section.webp" alt="Industrial Influenza"
+                loading="lazy" width="3840" height="1560">
+            <div id="Media-Project">
+                <div id="Media-Container">
+                    <div id="media-rcorn">
+                        <svg class="media-btn" id="media-switch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 320">
+                            <path
+                                d="M149 10.4c28.3-2.1 60.2-1 92.8-1 29.2 0 67.8-4.2 88.1 3.8a44 44 0 0 1 29.4 49.3c-1.5 13.4-10.6 27.6-15.1 38.8L296.8 216c-22.4 54.2-73.3 97-149.7 91.9a148.1 148.1 0 0 1-96.6-46.5A143.2 143.2 0 0 1 9.7 159.1 149.3 149.3 0 0 1 149 10.4m174.3 36c2.6-26.7-39.4-29.1-38.8-1h14.2c-2.2-12.3 9.6-12 11.3-3.8 3.7 17.5-32.3 31.8-26.5 53.1 13.6 0 27.4-.3 39.8 1 1.5-2.2 1.5-9.3 0-11.4h-24.6c7-10.6 23-21.8 24.6-38M72.3 74a111.5 111.5 0 0 0-34.2 72A120 120 0 0 0 97 263.3c34 20.4 81.5 23.4 119.3 2.9a118.4 118.4 0 0 0 62.6-87.2c7.8-46.6-13.7-89-37-109.9a120.9 120.9 0 0 0-97.6-30.3 115.6 115.6 0 0 0-72 35" />
+                            <path
+                                d="M118.7 70h43.5c15.4 44.8 34 86.1 49.3 130.8a145 145 0 0 0 22.8-7.6c4.5 6.9 5.2 17.6 9.4 24.7-15 7.3-33.2 11.6-51.1 16-8.9-27-20-52-29.4-78.6-16.9 23-31 48.6-47.4 72H83.6c-.3-4.5 3.3-9.2 5.7-13.2 18.6-31 40-65.7 58.7-97.6-1.6-7.9-5.5-13.5-7.5-20.9h-21.8V70.1z" />
+                        </svg>
+                        <svg class="media-btn" id="media-expand" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path
+                                d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z" />
+                        </svg>
+                    </div>
+                    <img id="media-cur" src="./assets/media/1_NEW.png" alt="Media Showcasing the Project" width="1920" height="1080">
+                </div>
+                <div id="Media-Gallery">
+                    <svg class="arrow" id="larr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12l4.58-4.59z" />
+                    </svg>
+                    <div id="gallery-cont">
+                        <img class="gal-select gal-item" src="./assets/media/1_NEW.png" alt="Media Option" width="1920" height="1080">
+                        <img class="gal-item" src="./assets/media/2_NEW.png" alt="Media Option" width="1920" height="1080">
+                        <img class="gal-item" src="./assets/media/3_NEW.png" alt="Media Option" width="1920" height="1080">
+                        <img class="gal-item" src="./assets/media/4_NEW.png" alt="Media Option" width="1920" height="1080">
+                    </div>
+                    <svg class="arrow" id="rarr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="HeroBackground" id="info-section">
+            <img class="back_image" src="./assets/images/hero_1_proto3.png" srcset="./assets/images/hero_1_proto3.webp" loading="lazy"
+                alt="Gordon Freeman With a Firm Look Over an Abstract Industrial Background" width="3840" height="1560">
             <div class="Text-Project mleft">
                 <div class="Title-Sect">Who are we?</div>
 
                 <div class="section-text">
-                    Orbifold Studios is a collective of developers who love Half-Life, formed by the teams behind
+                    Orbifold Studios is a collective of developers who love
+                    Half-Life, formed by the teams behind
                     <a href="https://halflife2vr.com/" target="_blank" rel="noreferrer">Half-Life 2: VR</a>,
-                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2438227263" target="_blank"
-                        rel="noreferrer">Half-Life 2: Remade
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2438227263" target="_blank" rel="noreferrer">Half-Life 2: Remade
                         Assets</a>, <a href="https://project17vr.com/" target="_blank" rel="noreferrer">Project 17</a>,
-                    and <a href="https://www.moddb.com/mods/half-life-2-raising-the-bar-redux" target="_blank"
-                        rel="noreferrer">Raising the Bar:
+                    and <a href="https://www.moddb.com/mods/half-life-2-raising-the-bar-redux" target="_blank" rel="noreferrer">Raising the Bar:
                         Redux</a>. We're led by
-                    our passion for creation and desire to always raise the bar of quality.
+                    our passion for creation and desire to always raise the bar
+                    of quality.
                 </div>
 
                 <div class="section-text">
-                    Our goal with Half-Life 2 RTX is to deliver a new way to experience Valve's classic, using
-                    cutting-edge rendering tech to bring the game to life in a way never before possible. At the same
-                    time, we'll be remastering all of the game's assets, to be made available to the community for free.
-                    With Half-Life 2 RTX and the release of its assets, we hope to ignite new passion within the
-                    community to explore the potential of RTX in remastering classic mods, or making new mods with RTX
+                    Our goal with Half-Life 2 RTX is to deliver a new way to
+                    experience Valve's classic, using
+                    cutting-edge rendering tech to bring the game to life in a
+                    way never before possible. At the same
+                    time, we'll be remastering all of the game's assets, to be
+                    made available to the community for free.
+                    With Half-Life 2 RTX and the release of its assets, we hope
+                    to ignite new passion within the
+                    community to explore the potential of RTX in remastering
+                    classic mods, or making new mods with RTX
                     in mind!
                 </div>
             </div>
         </div>
 
-        <div class="HeroBackground" id="third">
-            <img class="back_image" src="./assets/images/third_section.png" srcset="./assets/images/third_section.webp"
-                alt="Industrial Influenza" loading="lazy" width="3840" height="1560">
+        <div class="HeroBackground" id="recruit-section">
+            <img class="back_image" src="./assets/images/third_section.png" srcset="./assets/images/third_section.webp" alt="Industrial Influenza"
+                loading="lazy" width="3840" height="1560">
             <div class="Text-Project-Apply">
                 <div class="Title-Sect">How can you help?</div>
                 <div class="section-text" id="apply-text">
-                    We are looking for all kinds of talent to join our ranks! If you're as passionate as we are, and
-                    want to work alongside us to complete this monumental project, apply!
+                    We are looking for all kinds of talent to join our ranks! If
+                    you're as passionate as we are, and
+                    want to work alongside us to complete this monumental
+                    project, apply!
                 </div>
                 <div class="section-text" id="apply-text">
                     So - Time to choose.
                 </div>
-                <a id="Text_Apply_Button"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSczJVR2l9NTUHHORF29ZKYsmcnYxcoqu7JyWfO62DScJ3lgIw/viewform"
-                    target="_blank" rel="noreferrer">
+                <a class="Generic_Button" id="Text_Apply_Button"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSczJVR2l9NTUHHORF29ZKYsmcnYxcoqu7JyWfO62DScJ3lgIw/viewform" target="_blank" rel="noreferrer">
                     Join Us!
                 </a>
             </div>
@@ -133,7 +172,8 @@
             Copyright © Orbifold Studios 2023 Orbifold Studios are not
             affiliated with Valve and/or Valve
             Software®</a> in any way, shape, or form. Steam, Half-Life,
-            Half-Life Logo and the Steam logo are trademarks and/or registered trademarks of Valve Corporation © in the
+            Half-Life Logo and the Steam logo are trademarks and/or registered
+            trademarks of Valve Corporation © in the
             U.S. and/or other countries.</p>
         </div>
     </div>

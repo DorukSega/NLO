@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#ccc" viewBox="0 0 24 24">
+  <filter id="a">
+    <feDropShadow dx="0" dy="0" stdDeviation=".5"/>
+  </filter>
+  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z" filter="url(#a)"/>
+  <path d="M9.7 6.9v10.2L5.1 12zm4.6 10.2V6.9l4.6 5.1z"/>
+</svg>

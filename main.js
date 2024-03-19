@@ -1,4 +1,8 @@
 window.onload = () => {
+    const cur_year = new Date().getFullYear();
+    if (cur_year)
+        document.getElementById("currentYear").textContent = ` ${cur_year} `;
+    
     const ifcont = document.getElementsByClassName("ifcont")[0];
     const ytb = document.getElementById('ytb')
     document.getElementById("btnmedia").onclick = () => {

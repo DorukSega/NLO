@@ -371,6 +371,10 @@ body {
     transform: scale(.89);
 }
 
+#currentYear{
+    white-space: pre;
+}
+
 @media (max-aspect-ratio: 1 / 1) {
     .mleft {
         width: 90%;
